@@ -2,7 +2,7 @@
 FROM ruby:2.6.3-alpine3.9
 
 # install the gem of the github_changelog_generator
-RUN gem install github_changelog_generator -v v1.14.3
+RUN gem install github_changelog_generator -v 1.14.3
 
 # create the default path where the output will reside in
 RUN mkdir /output
