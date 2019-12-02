@@ -1,5 +1,7 @@
 # github-changelog-generator-dockerized
 
+CI/CD build status: [![Build Status](https://cloud.drone.io/api/badges/naorlivne/github-changelog-generator-dockerized/status.svg)](https://cloud.drone.io/naorlivne/github-changelog-generator-dockerized)
+
 A dockerized version of https://github.com/github-changelog-generator/github-changelog-generator
 
 Required & optional envvars:
