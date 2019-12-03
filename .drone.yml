@@ -166,7 +166,7 @@ steps:
     - git add CHANGELOG.md
     - git commit -m '[skip ci] Commit automatic created changelog'
     - mkdir -p ~/.ssh
-    - echo -e "${SSH_KEY//_/\\n}" > ~/.ssh/id_rsa
+    - echo -e "$SSH_KEY" > ~/.ssh/id_rsa
     - chmod 600 ~/.ssh/id_rsa
     - ssh-keyscan -H github.com >> ~/.ssh/known_hosts
     - git config --global --add url."git@github.com:".insteadOf "https://github.com/"
