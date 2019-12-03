@@ -12,6 +12,8 @@ steps:
   when:
     event:
       - push
+    branch: 
+      - master
   settings:
     username:
       from_secret: docker_username
@@ -37,6 +39,8 @@ steps:
   when:
     event:
       - push
+    branch: 
+      - master
   settings:
     username:
       from_secret: docker_username
@@ -62,6 +66,8 @@ steps:
   when:
     event:
       - push
+    branch: 
+      - master
   settings:
     username:
       from_secret: docker_username
@@ -78,8 +84,10 @@ type: docker
 name: publish_docker_manifest
 
 trigger:
-  event:
-  - push
+    event:
+      - push
+    branch: 
+      - master
 
 steps:
 - name: manifest
@@ -108,8 +116,10 @@ type: docker
 name: publish_docker_manifest_build_number
 
 trigger:
-  event:
-  - push
+    event:
+      - push
+    branch: 
+      - master
 
 steps:
 - name: manifest
@@ -137,8 +147,10 @@ type: docker
 name: publish_github_release
 
 trigger:
-  event:
-  - push
+    event:
+    - push
+    branch: 
+    - master
 
 steps:
 - name: create_changelog
