@@ -11,3 +11,8 @@ updates:
     versions:
     - "> 2.6.5.pre.alpine3.10"
     - "< 3"
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: daily
+    time: "10:00"
