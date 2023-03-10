@@ -1,6 +1,6 @@
 # github-changelog-generator-dockerized
 
-CI/CD build status: [![Build Status](https://cloud.drone.io/api/badges/naorlivne/github-changelog-generator-dockerized/status.svg)](https://cloud.drone.io/naorlivne/github-changelog-generator-dockerized)
+CI/CD build status: [![CI/CD](https://github.com/naorlivne/github-changelog-generator-dockerized/actions/workflows/full_ci_cd_workflow.yml/badge.svg)](https://github.com/naorlivne/github-changelog-generator-dockerized/actions/workflows/full_ci_cd_workflow.yml)
 
 A dockerized version of https://github.com/github-changelog-generator/github-changelog-generator
 
