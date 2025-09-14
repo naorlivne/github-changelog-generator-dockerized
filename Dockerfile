@@ -1,5 +1,5 @@
 # using latest offical ruby image that's based on latest alpine
-FROM ruby:2.7.0-alpine
+FROM ruby:3.2-alpine
  
 # install the gem of the github_changelog_generator
 RUN gem install faraday-net_http -v 3.0.2
